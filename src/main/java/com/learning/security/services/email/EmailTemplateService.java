@@ -16,7 +16,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class EmailTemplateService {
 
-    @Value("${yousuf.app.name:AuthServer}")
+    @Value("${yousuf.app.name:Auth Forge}")
     private String appName;
 
     @Value("${yousuf.app.email.support-email:support@authserver.com}")

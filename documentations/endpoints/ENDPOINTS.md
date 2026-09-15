@@ -1,4 +1,4 @@
-# Spring Security JWT - API Endpoints Reference
+# Auth Forge - API Endpoints Reference
 
 > Auto-generated endpoint documentation for coding agent context.
 > Base URL: `http://localhost:8080`

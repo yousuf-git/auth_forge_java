@@ -1,6 +1,6 @@
-# Spring Security JWT - Test Suite
+# Auth Forge - Test Suite
 
-This document provides comprehensive information about the test suite for the Spring Security JWT Authentication & Authorization Server.
+This document provides comprehensive information about the test suite for the Auth Forge authentication & authorization server.
 
 ## 📋 Table of Contents
 
@@ -14,7 +14,7 @@ This document provides comprehensive information about the test suite for the Sp
 
 ## 🎯 Overview
 
-The test suite provides comprehensive coverage for the Spring Security JWT application, including:
+The test suite provides comprehensive coverage for the Auth Forge application, including:
 - **Unit Tests**: Testing individual components in isolation
 - **Integration Tests**: Testing component interactions and API endpoints
 - **Repository Tests**: Testing database operations with H2 in-memory database

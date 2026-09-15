@@ -1,7 +1,7 @@
 # Test Suite Status Report
 
 ## Overview
-Comprehensive test suite has been created for the Spring Security JWT project with **140 test cases** covering all major components.
+Comprehensive test suite has been created for the Auth Forge project with **140 test cases** covering all major components.
 
 ## Test Execution Summary
 

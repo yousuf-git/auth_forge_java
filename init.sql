@@ -1,6 +1,6 @@
 -- =====================================================
 -- Database Initialization Script
--- Spring Security JWT Application
+-- Auth Forge
 -- =====================================================
 -- Creates 5 core tables:
 -- 1. role - User roles (ADMIN, CUSTOMER, PLANT_MANAGER)

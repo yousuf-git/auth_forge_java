@@ -1,4 +1,4 @@
-# Copilot Instructions - Spring Security JWT Auth Server
+# Copilot Instructions - Auth Forge
 
 ## Architecture Overview
 
@@ -48,7 +48,7 @@ This is a **Spring Boot 3.4 + Java 21** authentication server with JWT-based sta
 ./mvnw test
 
 # Docker build
-docker build -t auth-server .
+docker build -t auth-forge .
 ```
 
 ## Configuration

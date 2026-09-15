@@ -1,6 +1,6 @@
 # ✅ OAuth2 Setup Checklist
 
-Use this checklist to quickly set up OAuth2 authentication in your Spring Security JWT application.
+Use this checklist to quickly set up OAuth2 authentication in your Auth Forge application.
 
 ## 📋 Pre-Setup (Before You Start)
 

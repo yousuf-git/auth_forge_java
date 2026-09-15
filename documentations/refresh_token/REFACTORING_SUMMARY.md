@@ -1,7 +1,7 @@
 # Refactoring Summary: User and Role Entity Changes
 
 ## Overview
-This document summarizes the refactoring changes made to the Spring Security JWT authentication system based on the following requirements:
+This document summarizes the refactoring changes made to the Auth Forge authentication system based on the following requirements:
 1. Role name can be any string (not restricted to enum values)
 2. Remove username from User entity (use email as unique identifier)
 3. Change User-Role relationship from many-to-many to many-to-one (User has one Role)

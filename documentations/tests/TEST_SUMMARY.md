@@ -1,8 +1,8 @@
-# Test Suite Summary - Spring Security JWT Project
+# Test Suite Summary - Auth Forge Project
 
 ## 📊 Tests Created
 
-This document summarizes all the test files created for the Spring Security JWT authentication and authorization server.
+This document summarizes all the test files created for the Auth Forge authentication and authorization server.
 
 ---
 
@@ -324,4 +324,4 @@ To further enhance the test suite, consider:
 
 **Created by:** M. Yousuf 
 **Date:** December 17, 2025  
-**For:** Spring Security JWT Project by M. Yousuf
+**For:** Auth Forge Project by M. Yousuf

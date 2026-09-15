@@ -20,7 +20,7 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                    .title("Spring Security Authentication and Authorization by JWT")
+                    .title("Auth Forge - Authentication and Authorization by JWT")
                     
                     .version("v1.0.0")
                     

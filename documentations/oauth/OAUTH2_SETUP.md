@@ -49,7 +49,7 @@ This Spring Boot application now supports **OAuth2.0 authentication with Google*
 ### Step 2: Configure OAuth Client
 
 1. Application type: **Web application**
-2. Name: `Spring Boot Auth Server`
+2. Name: `Auth Forge`
 3. **Authorized JavaScript origins:**
    ```
    http://localhost:8080
