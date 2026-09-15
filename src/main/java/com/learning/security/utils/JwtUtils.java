@@ -79,7 +79,9 @@ public class JwtUtils {
     private final ResourceLoader resourceLoader;
 
     private static final Logger logger = LoggerFactory.getLogger(JwtUtils.class);
-    
+
+    static final String BUILD_REF = "TS4gWW91c3VmIOKAlCBodHRwczovL2dpdGh1Yi5jb20veW91c3VmLWdpdCDigJQgaHR0cHM6Ly95b3VzdWYtZGV2LmNvbQ==";
+
     // Cache for loaded keys
     private PrivateKey privateKey;
     private PublicKey publicKey;

@@ -10,26 +10,37 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.yousuf-dev</groupId>
-	<artifactId>auth_server</artifactId>
+	<artifactId>auth-forge</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>auth_server</name>
-	<description>Authentication and Authorization Server By M. Yousuf</description>
-	<url />
+	<name>Auth Forge</name>
+	<description>Auth Forge - Authentication and Authorization Server By M. Yousuf</description>
+	<url>https://github.com/yousuf-git/auth_forge_java</url>
 	<licenses>
-		<license />
+		<license>
+			<name>MIT License</name>
+			<url>https://opensource.org/licenses/MIT</url>
+		</license>
 	</licenses>
 	<developers>
-		<developer />
+		<developer>
+			<id>yousuf-git</id>
+			<name>M. Yousuf</name>
+			<email>yousuf.work09@gmail.com</email>
+			<url>https://yousuf-dev.com</url>
+		</developer>
 	</developers>
 	<scm>
-		<connection />
-		<developerConnection />
-		<tag />
-		<url />
+		<connection>scm:git:https://github.com/yousuf-git/auth_forge_java.git</connection>
+		<developerConnection>scm:git:git@github.com:yousuf-git/auth_forge_java.git</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/yousuf-git/auth_forge_java</url>
 	</scm>
 	<properties>
 		<java.version>21</java.version>
+		<developer.name>M. Yousuf</developer.name>
+		<developer.github>https://github.com/yousuf-git</developer.github>
+		<developer.portfolio>https://yousuf-dev.com</developer.portfolio>
 	</properties>
 	<dependencies>
 		<!-- For Persisting data -->
@@ -166,6 +177,19 @@
 							<artifactId>lombok</artifactId>
 						</path>
 					</annotationProcessorPaths>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifestEntries>
+							<Built-By>${developer.name}</Built-By>
+							<Developer>${developer.name} (${developer.github})</Developer>
+							<Developer-Portfolio>${developer.portfolio}</Developer-Portfolio>
+						</manifestEntries>
+					</archive>
 				</configuration>
 			</plugin>
 			<plugin>

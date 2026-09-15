@@ -12,9 +12,11 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 public class SecurityApplication {
 
+	private static final String DEVELOPER = "M. Yousuf (https://github.com/yousuf-git)";
+
 	public static void main(String[] args) {
 		SpringApplication.run(SecurityApplication.class, args);
-		System.out.println("Welcome Back M.Y., Your Auth Server is running now... !");
+		System.out.println("Welcome Back M.Y., Auth Forge is running now... ! Built by " + DEVELOPER);
 
 	}
 
